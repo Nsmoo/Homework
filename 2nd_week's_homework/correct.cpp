@@ -17,7 +17,7 @@ int invertBits(uint8_t* ptr, int size, std::vector<bool> mask) {
   }
 
   if (mask.empty()) {
-    INVERT_BITS_NO_MASK;
+    return INVERT_BITS_NO_MASK;
   }
 
   auto a = mask.begin();
