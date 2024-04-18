@@ -38,7 +38,7 @@ int invertBits(uint8_t* ptr, int size, std::vector<bool> mask) {
 int main() {
   const int l = 4;
   uint8_t A[l] = {0b00000000, 0b01010101, 0b10101010, 0b11111111};
-  std::vector<bool> mask = {0, 1};
+  std::vector<bool> mask = {1, 0};
 
   invertBits(A, l, mask);
 
