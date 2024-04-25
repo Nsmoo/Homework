@@ -46,7 +46,7 @@ using Token = std::variant<OpeningBracket, ClosingBracket, Number, UnknownToken,
 
 // 1234
 
-const std::unordered_map<char, Token> kSymbol2Token{
+const std::unordered_map<char, Token> kSymbol2Token {
     {'+', Plus{}}, {'-', Minus{}}, {'*', Multiply{}}, {'/', Divide{}}, {'%', Modulo{}}};
 
 int ToDigit(unsigned char symbol) {
