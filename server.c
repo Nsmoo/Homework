@@ -88,7 +88,7 @@ void handle_client(int client_socket, struct sockaddr_in *client_addr) {
         return;
     }
 
-    printf("Received RRCConnectionSetupComplete with PLMN Identity: %ld\n",
+    printf("Received RRCConnectionSetupComplete with PLMN Identity %ld\n",
            setup_complete->criticalExtensions.choice.c1.choice.rrcConnectionSetupComplete_r8.selectedPLMN_Identity);
 
     ASN_STRUCT_FREE(asn_DEF_RRCConnectionRequest, req);
