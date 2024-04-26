@@ -84,7 +84,7 @@ int main() {
         return -1;
     }
 
-    printf("Received RRCConnectionSetup with transaction identifier: %ld\n", setup->rrc_TransactionIdentifier);
+    printf("Received RRCConnectionSetup with transaction identifier %ld\n", setup->rrc_TransactionIdentifier);
 
     printf("Initializing RRCConnectionSetupComplete...\n");
     RRCConnectionSetupComplete_t setup_complete;
