@@ -15,7 +15,7 @@
 #include <per_decoder.h>
 
 #define PORT 8080 
-// fgergr
+// fgerg
 void log_message(const char *msg) {
     time_t now = time(NULL);
     struct tm *t = localtime(&now);
