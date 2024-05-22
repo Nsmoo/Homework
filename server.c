@@ -14,7 +14,7 @@
 #include <per_encoder.h>
 #include <per_decoder.h>
 
-#define PORT 8080 //gfrtegrf
+#define PORT 8080 //234566453
 
 void log_message(const char *msg) {
     time_t now = time(NULL);
